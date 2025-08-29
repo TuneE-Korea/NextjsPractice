@@ -1,12 +1,12 @@
-import HeaderNavLeft from "./HeaderNavLeft";
-import HeaderNavRight from "./HeaderNavRight";
+import HeaderNavLeft from "../atoms/HeaderNavLeft";
+import HeaderNavRight from "../atoms/HeaderNavRight";
 
 const HeaderNav = () => {
   return (
-    <div className="flex justify-between">
+    <nav className="flex justify-between">
       <HeaderNavLeft></HeaderNavLeft>
       <HeaderNavRight></HeaderNavRight>
-    </div>
+    </nav>
   );
 };
 

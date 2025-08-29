@@ -13,7 +13,7 @@ export const NAV_LEFT = [
 
 // 오른쪽 메뉴 데이터
 export const NAV_RIGHT = [
-  { id: "store", text: "오픈런스토어" },
+  { id: "store", text: "오프라인 스토어" },
   { id: "ranking", text: "랭킹" },
   { id: "likes", text: "좋아요" },
   { id: "cart", text: "장바구니" },
