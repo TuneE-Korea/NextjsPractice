@@ -10,7 +10,7 @@ const SearchBox = (props) => {
         />
       </button>
       <button className="absolute top-2 right-4">
-        <Search />
+        <Search color="grey" />
       </button>
     </div>
   );

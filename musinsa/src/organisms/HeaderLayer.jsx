@@ -8,7 +8,6 @@ const HeaderLayer = () => {
     <div>
       <HeaderNav></HeaderNav>
       <MusinsaBell></MusinsaBell>
-      {/* 검색창 구현  */}
       <HeaderSearch></HeaderSearch>
       <HeaderCateg></HeaderCateg>
     </div>

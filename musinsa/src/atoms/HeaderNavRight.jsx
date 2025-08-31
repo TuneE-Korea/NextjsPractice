@@ -5,8 +5,9 @@ const HeaderNavRight = () => {
       {NAV_RIGHT.map((link) => (
         <span
           key={link.id}
-          className="text-sm text-gray-400 hover:text-white transition-colors"
+          className="flex gap-1 justify-center text-sm text-[#BDBDBE] hover:text-white transition-colors"
         >
+          {link.icon}
           {link.text}
         </span>
       ))}
