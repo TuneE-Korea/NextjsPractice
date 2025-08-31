@@ -5,7 +5,7 @@ const HeaderNavLeft = () => {
     <>
       <div className="flex items-center space-x-4">
         <button>
-          <Logs className="h-6 w-6" color="white" />
+          <Logs className="h-6 w-6" color="#9A9A9C" />
         </button>
         {NAV_LEFT.map((link) => (
           <span

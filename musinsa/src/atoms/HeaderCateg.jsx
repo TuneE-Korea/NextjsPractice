@@ -1,11 +1,11 @@
 import { NAV_BOT_CATEG } from "@/data/HeaderBottomCategory";
 const HeaderCateg = () => {
   return (
-    <div className="flex gap-2">
+    <div className="flex gap-2 px-3 py-2">
       {NAV_BOT_CATEG.map((link, i) => (
         <span
           key={i}
-          className="py-1 text-sm font-bold text-gray-300 hover:text-white transition-colors"
+          className="py-1 text-xs text-gray-300 hover:text-white transition-colors"
         >
           {link.text}
         </span>

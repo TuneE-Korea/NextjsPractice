@@ -1,12 +1,15 @@
 import HeaderNav from "@/molecules/HeaderNav";
 import HeaderCateg from "@/atoms/HeaderCateg";
+import HeaderSearch from "@/molecules/HeaderSearch";
+import MusinsaBell from "@/molecules/MusinsaBell";
 
 const HeaderLayer = () => {
   return (
     <section>
       <HeaderNav></HeaderNav>
+      <MusinsaBell></MusinsaBell>
       {/* 검색창 구현  */}
-      <div className="text-red-600">검색창 구현 예정</div>
+      <HeaderSearch></HeaderSearch>
       <HeaderCateg></HeaderCateg>
     </section>
   );

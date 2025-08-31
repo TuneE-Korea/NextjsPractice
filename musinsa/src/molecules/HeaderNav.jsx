@@ -3,7 +3,7 @@ import HeaderNavRight from "../atoms/HeaderNavRight";
 
 const HeaderNav = () => {
   return (
-    <nav className="flex justify-between">
+    <nav className="flex justify-between px-3 py-5">
       <HeaderNavLeft></HeaderNavLeft>
       <HeaderNavRight></HeaderNavRight>
     </nav>

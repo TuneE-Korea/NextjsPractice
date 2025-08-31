@@ -5,12 +5,12 @@ const HeaderNavRight = () => {
       {NAV_RIGHT.map((link) => (
         <span
           key={link.id}
-          className="text-xs text-gray-400 hover:text-white transition-colors"
+          className="text-sm text-gray-400 hover:text-white transition-colors"
         >
           {link.text}
         </span>
       ))}
-      <button className="border border-gray-600 px-3 py-1 text-xs text-gray-300 hover:bg-gray-700 rounded-sm">
+      <button className="border border-gray-400 px-3 py-1 text-xs text-gray-300 hover:bg-gray-700 rounded-sm">
         로그인/회원가입
       </button>
     </div>
