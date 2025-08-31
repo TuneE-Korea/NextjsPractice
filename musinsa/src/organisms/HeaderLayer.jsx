@@ -5,13 +5,13 @@ import MusinsaBell from "@/molecules/MusinsaBell";
 
 const HeaderLayer = () => {
   return (
-    <section>
+    <div>
       <HeaderNav></HeaderNav>
       <MusinsaBell></MusinsaBell>
       {/* 검색창 구현  */}
       <HeaderSearch></HeaderSearch>
       <HeaderCateg></HeaderCateg>
-    </section>
+    </div>
   );
 };
 
